@@ -1,0 +1,21 @@
+
+#include <cpprest/http_client.h>
+#include <cpprest/filestream.h>
+
+#include <drop_box.h>
+
+namespace dropbox_utilities
+{
+
+pplx::task<utility::string_t> upload_to_dropbox(
+		const utility::string_t &localFile,
+		const utility::string_t &remoteFileName)
+{
+	// Open stream to file to upload.
+	return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+	{
+
+	});
+}
+
+}

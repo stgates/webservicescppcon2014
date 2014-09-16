@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\Users\stgates\DropBoxDemo\.metadata\.plugins\org.eclipse.jdt.core
+2365133368.index
+1267520929.index
+788353928.index
+1189343756.index
+1284074322.index

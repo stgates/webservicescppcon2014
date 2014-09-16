@@ -1,0 +1,28 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := cpprest
+LOCAL_SRC_FILES := libcpprest.so
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := iconv
+LOCAL_SRC_FILES := libiconv.so
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE    := DropBox
+LOCAL_SRC_FILES := DropBox.cpp drop_box.cpp
+LOCAL_CFLAGS :=-D__GXX_EXPERIMENTAL_CXX0X__
+LOCAL_CPPFLAGS += -I C:\Users\stgates\Desktop\Build_android\include
+LOCAL_CPPFLAGS += -I C:\Users\stgates\Desktop\Build_android\Boost-for-Android\boost_1_55_0
+LOCAL_CPPFLAGS += -fexceptions -frtti -std=c++11
+LOCAL_LDLIBS := -llog
+LOCAL_SHARED_LIBRARIES := cpprest
+
+include $(BUILD_SHARED_LIBRARY)

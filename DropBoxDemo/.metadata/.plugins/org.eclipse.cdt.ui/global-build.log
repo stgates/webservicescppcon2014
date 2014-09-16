@@ -1,0 +1,1750 @@
+20:12:16 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= DropBox.cpp
+[armeabi-v7a] Prebuilt       : libcpprest.so <= jni/
+[armeabi-v7a] Prebuilt       : libgnustl_shared.so <= <NDK>/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Prebuilt       : libiconv.so <= jni/
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:34:28 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= DropBox.cpp
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+jni/DropBox.cpp: In function '_jstring* Java_com_example_yodaspeak_MainActivity_convertToYoda(JNIEnv*, jobject, jstring, jstring)':
+jni/DropBox.cpp:20:32: error: 'to_stdstring' was not declared in this scope
+     to_stdstring(env, localFile),
+                                ^
+make.exe: *** [obj/local/armeabi-v7a/objs-debug/DropBox/DropBox.o] Error 1
+20:35:05 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= DropBox.cpp
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+jni/DropBox.cpp:22: error: undefined reference to 'dropbox_utilities::upload_to_dropbox(std::string const&, std::string const&)'
+collect2.exe: error: ld returned 1 exit status
+make.exe: *** [obj/local/armeabi-v7a/libDropBox.so] Error 1
+20:35:32 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= DropBox.cpp
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from jni/drop_box.h:3:0,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from jni/drop_box.h:3:0,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:49:10 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:50:17 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:50:26 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:54:02 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:56:46 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= DropBox.cpp
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from jni/drop_box.h:3:0,
+                 from jni/DropBox.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:56:56 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+20:59:49 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:01:32 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:01:48 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:01:51 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:07:22 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+jni/drop_box.cpp: In function 'pplx::task<std::basic_string<char> > dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)':
+jni/drop_box.cpp:15:9: error: 'file_stream' was not declared in this scope
+  return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+         ^
+jni/drop_box.cpp:15:9: note: suggested alternative:
+In file included from jni/drop_box.cpp:3:0:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:1017:11: note:   'Concurrency::streams::file_stream'
+     class file_stream
+           ^
+jni/drop_box.cpp:15:28: error: expected primary-expression before '>' token
+  return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+                            ^
+jni/drop_box.cpp:15:29: error: '::open_istream' has not been declared
+  return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+                             ^
+jni/drop_box.cpp:15:63: error: 'basic_istream' has not been declared
+  return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+                                                               ^
+jni/drop_box.cpp:15:76: error: expected ',' or '...' before '<' token
+  return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+                                                                            ^
+make.exe: *** [obj/local/armeabi-v7a/objs-debug/DropBox/drop_box.o] Error 1
+21:08:12 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+jni/drop_box.cpp: In function 'pplx::task<std::basic_string<char> > dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)':
+jni/drop_box.cpp:23:3: error: could not convert 'pplx::task<_Type>::then(const _Function&) const [with _Function = dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)::__lambda131; _ReturnType = Concurrency::streams::basic_istream<unsigned char>; typename pplx::details::_ContinuationTypeTraits<_Function, _ReturnType>::_TaskOfType = pplx::task<void>]((*(const dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)::__lambda131*)(&<lambda closure object> dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)::__lambda131{})))' from 'pplx::details::_ContinuationTypeTraits<dropbox_utilities::upload_to_dropbox(const string_t&, const string_t&)::__lambda131, Concurrency::streams::basic_istream<unsigned char> >::_TaskOfType {aka pplx::task<void>}' to 'pplx::task<std::basic_string<char> >'
+  });
+   ^
+make.exe: *** [obj/local/armeabi-v7a/objs-debug/DropBox/drop_box.o] Error 1
+21:17:30 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+jni/drop_box.cpp: In lambda function:
+jni/drop_box.cpp:28:23: error: 'remoteFileName' is not captured
+   builder.append_path(remoteFileName);
+                       ^
+make.exe: *** [obj/local/armeabi-v7a/objs-debug/DropBox/drop_box.o] Error 1
+21:17:57 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:18:37 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:28:49 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:29:23 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:30:55 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: DropBox <= drop_box.cpp
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/drop_box.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/filestream.h:32:0,
+                 from jni/drop_box.cpp:3:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:136:179: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _open_fsb_str(_In_ concurrency::streams::details::_filestream_callback *callback, const utility::char_t *filename, std::ios_base::openmode mode, int prot);
+                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:163:165: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb_nolock(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:164:158: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _close_fsb(_In_ concurrency::streams::details::_file_info **info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:175:207: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, const void *ptr, size_t count, size_t char_size);
+                                                                                                                                                                                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:184:184: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _putc_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, int ch, size_t char_size);
+                                                                                                                                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:194:227: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _getn_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback, _Out_writes_ (count) void *ptr, _In_ size_t count, size_t char_size);
+                                                                                                                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:202:156: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP bool __cdecl _sync_fsb(_In_ concurrency::streams::details::_file_info *info, _In_ concurrency::streams::details::_filestream_callback *callback);
+                                                                                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:209:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP utility::size64_t __cdecl _get_size(_In_ concurrency::streams::details::_file_info *info, size_t char_size);
+                                                                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:217:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:225:131: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekrdtoend_fsb(_In_ concurrency::streams::details::_file_info *info, int64_t offset, size_t char_size);
+                                                                                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/fileio.h:233:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP size_t __cdecl _seekwrpos_fsb(_In_ concurrency::streams::details::_file_info *info, size_t pos, size_t char_size);
+                                                                                                                             ^
+[armeabi-v7a] SharedLibrary  : libDropBox.so
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:31:18 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:44:24 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:47:32 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:48:36 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:48:44 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+21:56:12 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+22:03:39 **** Incremental Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+22:39:08 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+08:55:22 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+10:30:36 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so

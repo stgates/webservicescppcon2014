@@ -1,0 +1,14 @@
+
+#include <drop_box.h>
+
+namespace dropbox_utilities
+{
+
+pplx::task<utility::string_t> upload_to_dropbox(
+		const utility::string_t &localFile,
+		const utility::string_t &removeFileName)
+{
+
+}
+
+}

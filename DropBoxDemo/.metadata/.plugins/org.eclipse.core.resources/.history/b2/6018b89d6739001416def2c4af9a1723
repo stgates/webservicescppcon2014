@@ -1,0 +1,40 @@
+#include <jni.h>
+
+#include <drop_box.h>
+
+// Helper function to convert jstring to std::string.
+std::string to_stdstring(JNIEnv *env, jstring text);
+
+// Acts as a wrapper for Java, basically handling string conversion and
+// exceptions. This could be improved by making asynchronous and using a callback
+// into Java.
+extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_yodaspeak_MainActivity_convertToYoda(
+		JNIEnv* env,
+		jobject thiz,
+		jstring localFile,
+		jstring remoteFileName)
+{
+	std::string uploadResult;
+
+	try
+	{
+		uploadResult = dropbox_utilities::upload_to_dropbox(
+				to_stdstring(env, localFile),
+				to_stdstring(env, remoteFileName)).get();
+	}
+	catch(const std::exception &e)
+	{
+		uploadResult = e.what();
+	}
+
+	return env->NewStringUTF(uploadResult.c_str());
+}
+
+std::string to_stdstring(JNIEnv *env, jstring text)
+{
+	const char * rawChars = env->GetStringUTFChars(text, nullptr);
+	std::string stdString(rawChars);
+	env->ReleaseStringUTFChars(text, rawChars);
+	return stdString;
+}

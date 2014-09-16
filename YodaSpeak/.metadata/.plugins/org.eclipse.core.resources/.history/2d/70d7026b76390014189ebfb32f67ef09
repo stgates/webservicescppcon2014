@@ -1,0 +1,15 @@
+
+#include <string>
+
+#include <pplx/pplxtasks.h>
+
+namespace yoda_utilities
+{
+
+// Converts a string of text to Yoda speech.
+pplx::task<std::string> convert_to_yoda(const std::string &text);
+
+// Checks a string of text for grammar errors, returning a report.
+pplx::task<std::string> check_grammar(const std::string &text);
+
+}

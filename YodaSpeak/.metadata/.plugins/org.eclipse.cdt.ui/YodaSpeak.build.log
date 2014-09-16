@@ -1,0 +1,155 @@
+10:34:02 **** Incremental Build of configuration Default for project YodaSpeak ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Compile++ thumb: YodaSpeak <= yoda_speak.cpp
+jni/yoda_speak.cpp:22:2: error: #error Go to http:
+ #error Go to http://www.mashape.com/ and get your own key and enter below.
+  ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/yoda_speak.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:71:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl seconds_to_xml_duration(utility::seconds numSecs);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:77:98: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::seconds __cdecl xml_duration_to_seconds(utility::string_t timespanString);
+                                                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:86:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl utf16_to_utf8(const utf16string &w);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:91:71: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl utf8_to_utf16(const std::string &s);
+                                                                       ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:96:74: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl usascii_to_utf16(const std::string &s);
+                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:101:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl latin1_to_utf16(const std::string &s);
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:106:84: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl default_code_page_to_utf16(const std::string &s);
+                                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:111:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(std::string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:112:70: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(utf16string &&s);
+                                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:113:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const std::string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:114:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_string_t(const utf16string &s);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:119:76: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(const std::string &value);
+                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:120:69: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utf16string __cdecl to_utf16string(utf16string value);
+                                                                     ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:125:68: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(std::string value);
+                                                                    ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:126:75: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::string __cdecl to_utf8string(const utf16string &value);
+                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:131:91: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(const std::vector<unsigned char>& data);
+                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:136:66: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP utility::string_t __cdecl to_base64(uint64_t data);
+                                                                  ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:141:92: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     _ASYNCRTIMP std::vector<unsigned char> __cdecl from_base64(const utility::string_t& str);
+                                                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:199:41: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     inline bool __cdecl is_alnum(char ch)
+                                         ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:40:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/yoda_speak.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:272:64: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl linux_category();
+                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:279:67: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ _ASYNCRTIMP const std::error_category & __cdecl platform_category();
+                                                                   ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:284:77: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::system_error __cdecl create_system_error(unsigned long errorCode)
+                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:293:73: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline std::error_code __cdecl create_error_code(unsigned long errorCode)
+                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:301:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+ inline utility::string_t __cdecl create_error_message(unsigned long errorCode)
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:321:49: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl utc_now();
+                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/asyncrt_utils.h:352:119: warning: 'cdecl' attribute directive ignored [-Wattributes]
+     static _ASYNCRTIMP datetime __cdecl from_string(const utility::string_t& timestring, date_format format = RFC_1123);
+                                                                                                                       ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:42:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/yoda_speak.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:192:47: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl null();
+                                               ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:199:61: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(double value);
+                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:206:62: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl number(int32_t value);
+                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:213:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl boolean(bool value);
+                                                            ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:220:72: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP value __cdecl string(utility::string_t value);
+                                                                        ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:234:78: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(bool keep_order = false);
+                                                                              ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:242:137: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl object(std::vector<std::pair<::utility::string_t, value>> fields, bool keep_order = false);
+                                                                                                                                         ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:248:54: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array();
+                                                      ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:255:65: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(size_t size);
+                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:262:81: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         static _ASYNCRTIMP json::value __cdecl array(std::vector<value> elements);
+                                                                                 ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/json.h:268:60: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP json::value::value_type __cdecl type() const;
+                                                            ^
+In file included from C:\Users\stgates\Desktop\Build_android\include/cpprest/uri.h:33:0,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_msg.h:43,
+                 from C:\Users\stgates\Desktop\Build_android\include/cpprest/http_client.h:47,
+                 from jni/yoda_speak.cpp:2:
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:139:144: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_uri(const utility::string_t &raw, uri::components::component = components::full_uri);
+                                                                                                                                                ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:147:106: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl encode_data_string(const utility::string_t &utf8data);
+                                                                                                          ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:154:93: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static utility::string_t __cdecl decode(const utility::string_t &encoded);
+                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:161:107: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::vector<utility::string_t> __cdecl split_path(const utility::string_t &path);
+                                                                                                           ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:168:125: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static std::map<utility::string_t, utility::string_t> __cdecl split_query(const utility::string_t &query);
+                                                                                                                             ^
+C:\Users\stgates\Desktop\Build_android\include/cpprest/base_uri.h:175:85: warning: 'cdecl' attribute directive ignored [-Wattributes]
+         _ASYNCRTIMP static bool __cdecl validate(const utility::string_t &uri_string);
+                                                                                     ^
+make.exe: *** [obj/local/armeabi-v7a/objs-debug/YodaSpeak/yoda_speak.o] Error 1
+
+10:34:08 Build Finished (took 5s.778ms)
+

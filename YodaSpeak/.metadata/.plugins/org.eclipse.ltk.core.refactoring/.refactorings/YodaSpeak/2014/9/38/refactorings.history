@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;YodaSpeak&apos;&#x0D;&#x0A;- Original project: &apos;YodaSpeak&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     libcpprest.so&#x0D;&#x0A;     libiconv.so" description="Delete elements" element1="jni/libcpprest.so" element2="jni/libiconv.so" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1410889120114" subPackages="false" version="1.0"/>
+</session>

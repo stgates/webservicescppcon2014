@@ -1,0 +1,60 @@
+package com.example.dropbox;
+
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+
+
+public class MainActivity extends ActionBarActivity {
+
+	static  {
+		System.loadLibrary("cpprest");
+		System.loadLibrary("DropBox");
+	}
+	
+	private native String uploadFile(String pathToFile, String fileName);
+	
+	// Helper function to get actual path to file.
+	public String getRealPathFromURI(Uri contentUri) {
+		String res = null;
+		final String[] proj = { MediaStore.Images.Media.DATA };
+		Cursor cursor = getContentResolver().query(contentUri, proj, null, null, null);
+		if(cursor.moveToFirst()) {
+			int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+		    res = cursor.getString(column_index);
+		}
+		cursor.close();
+		return res;
+	}
+
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}

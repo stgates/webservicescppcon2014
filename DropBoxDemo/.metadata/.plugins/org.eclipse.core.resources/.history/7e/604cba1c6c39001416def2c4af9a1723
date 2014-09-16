@@ -1,0 +1,110 @@
+package com.example.dropbox;
+
+import android.content.Intent;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.MediaStore;
+import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.TextView;
+
+
+public class MainActivity extends ActionBarActivity {
+
+	private final int SELECT_PHOTO = 1;
+	
+	static  {
+		System.loadLibrary("cpprest");
+		System.loadLibrary("DropBox");
+	}
+	
+	private native String uploadFile(String pathToFile, String fileName);
+	
+	// Handle image file picker.
+	@Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent imageReturnedIntent) { 
+        super.onActivityResult(requestCode, resultCode, imageReturnedIntent);
+        if(requestCode == SELECT_PHOTO) {
+        	final Uri imageUri = imageReturnedIntent.getData();
+        	final String absolutePath = getPathFromUri(imageUri);
+        	
+        	// Use File to get just the file name.
+        	File imageFile = new File(absolutePath);
+        	final String remoteFileName = "test2.jpg"; // TODO
+        	
+        	final TextView resultField = (TextView)findViewById(R.id.resultTextView);
+			resultField.setText("Uploading " + remoteFileName + "...");
+        	
+    		// This could be improved by making the uploadFile function asynchronous.
+    		final Handler uiHandler = new Handler();
+    		Thread uploadThread = new Thread(new Runnable() {
+    			@Override
+    			public void run() {
+    				final String result = uploadFile(absolutePath, remoteFileName);
+    				uiHandler.post(new Runnable() {
+    					
+    					@Override
+    					public void run() {
+    						resultField.setText(result);
+    					}
+    				});
+    			}
+    		});
+    		uploadThread.start();
+        }
+	}
+	
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        
+        // Setup picker button.
+        Button pickButton = (Button)findViewById(R.id.pickImageButton);
+        pickButton.setOnClickListener(new OnClickListener() {
+        	public void onClick(View v) {
+        		Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+				photoPickerIntent.setType("image/*");
+				startActivityForResult(photoPickerIntent, SELECT_PHOTO);
+        	}
+        });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    
+    // Helper function to get actual path to file.
+ 	private String getPathFromUri(Uri contentUri) {
+ 		String res = null;
+ 		final String[] proj = { MediaStore.Images.Media.DATA };
+ 		Cursor cursor = getContentResolver().query(contentUri, proj, null, null, null);
+ 		if(cursor.moveToFirst()) {
+ 			int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+ 		    res = cursor.getString(column_index);
+ 		}
+ 		cursor.close();
+ 		return res;
+ 	}
+}

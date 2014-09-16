@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+C:\Users\stgates\YodaSpeak\.metadata\.plugins\org.eclipse.jdt.core
+1284074322.index
+3621716473.index
+936895090.index
+701016752.index
+3025822314.index

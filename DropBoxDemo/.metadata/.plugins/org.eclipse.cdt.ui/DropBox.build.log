@@ -1,0 +1,10 @@
+10:30:36 **** Build of configuration Default for project DropBox ****
+"C:\\android-ndk-r9d\\ndk-build.cmd" all 
+Android NDK: WARNING: APP_PLATFORM android-19 is larger than android:minSdkVersion 9 in ./AndroidManifest.xml    
+[armeabi-v7a] Install        : libDropBox.so => libs/armeabi-v7a/libDropBox.so
+[armeabi-v7a] Install        : libcpprest.so => libs/armeabi-v7a/libcpprest.so
+[armeabi-v7a] Install        : libiconv.so => libs/armeabi-v7a/libiconv.so
+[armeabi-v7a] Install        : libgnustl_shared.so => libs/armeabi-v7a/libgnustl_shared.so
+
+10:30:39 Build Finished (took 2s.781ms)
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.android.ide.eclipse.adt.feature:23.0.3.1327240"/>
+		<item value="com.android.ide.eclipse.adt.package.feature:23.0.2.1259578"/>
+		<item value="com.android.ide.eclipse.ddms.feature:23.0.3.1327240"/>
+		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.3.1327240"/>
+		<item value="com.android.ide.eclipse.traceview.feature:23.0.3.1327240"/>
+		<item value="org.eclipse.cdt.build.crossgcc:1.1.0.201302132326"/>
+		<item value="org.eclipse.cdt.bupc:1.0.3.201302132326"/>
+		<item value="org.eclipse.cdt.core.lrparser.feature:5.2.0.201302132326"/>
+		<item value="org.eclipse.cdt.core.parser.upc.feature:5.1.0.201302132326"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:7.0.0.201302132326"/>
+		<item value="org.eclipse.cdt.examples.dsf:2.1.0.201302132326"/>
+		<item value="org.eclipse.cdt.gdb:7.0.0.201302132326"/>
+		<item value="org.eclipse.cdt.launch.remote:6.0.0.201302132326"/>
+		<item value="org.eclipse.cdt.sdk:8.1.2.201302132326"/>
+		<item value="org.eclipse.cdt.util:5.1.0.201302132326"/>
+		<item value="org.eclipse.cdt.xlc.feature:6.3.1.201302132326"/>
+		<item value="org.eclipse.cdt:8.1.2.201302132326"/>
+		<item value="org.eclipse.egit.import:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.egit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.emf.common:2.9.1.v20130827-0309"/>
+		<item value="org.eclipse.emf.ecore:2.9.1.v20130827-0309"/>
+		<item value="org.eclipse.help:1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4"/>
+		<item value="org.eclipse.jgit:2.2.0.201212191850-r"/>
+		<item value="org.eclipse.platform:4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7"/>
+		<item value="org.eclipse.rcp:4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="1320" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="346" key="DIALOG_Y_ORIGIN"/>
+		<item value="766" key="DIALOG_HEIGHT"/>
+		<item value="940" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+</section>

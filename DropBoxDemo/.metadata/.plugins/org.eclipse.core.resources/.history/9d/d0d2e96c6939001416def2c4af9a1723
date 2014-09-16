@@ -1,0 +1,33 @@
+
+#include <cpprest/http_client.h>
+#include <cpprest/filestream.h>
+
+#include <drop_box.h>
+
+using namespace web;
+using namespace web::http;
+using namespace web::http::client;
+using namespace concurrency::streams;
+
+namespace dropbox_utilities
+{
+
+pplx::task<utility::string_t> upload_to_dropbox(
+		const utility::string_t &localFile,
+		const utility::string_t &remoteFileName)
+{
+	// Open stream to file to upload.
+	return file_stream<uint8_t>::open_istream(localFile).then([](basic_istream<uint8_t> fileStream)
+	{
+		// For more information about the Dropbox API see https://www.dropbox.com/developers/core/docs
+		http_client c(U("https://api-content.dropbox.com/1/files_put/auto/test.jpg"));
+
+		http_request req(methods::PUT);
+						uri_builder builder;
+						builder.append_query(U("access_token"), U("MvrSlpBowcgAAAAAAAAACU9PLm99enXfD-MRGjmzoccIg6gHjKiDnJ40etwyDsh2"));
+						req.set_request_uri(builder.to_uri());
+						req.set_body(fileBuffer);
+	});
+}
+
+}

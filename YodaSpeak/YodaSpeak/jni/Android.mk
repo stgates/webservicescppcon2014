@@ -1,0 +1,29 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := cpprest
+LOCAL_SRC_FILES := libcpprest.so
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := iconv
+LOCAL_SRC_FILES := libiconv.so
+
+include $(PREBUILT_SHARED_LIBRARY)
+
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE    := YodaSpeak
+LOCAL_SRC_FILES := YodaSpeak.cpp yoda_speak.cpp
+LOCAL_CFLAGS :=-D__GXX_EXPERIMENTAL_CXX0X__
+LOCAL_CPPFLAGS += -I PATH_TO_CPPREST_INCLUDE
+LOCAL_CPPFLAGS += -I PATH_TO_BOOST_INCLUDE
+LOCAL_CPPFLAGS += -fexceptions -frtti -std=c++11
+LOCAL_LDLIBS := -llog
+LOCAL_SHARED_LIBRARIES := cpprest
+
+include $(BUILD_SHARED_LIBRARY)

@@ -1,0 +1,17 @@
+#include <jni.h>
+
+#include <drop_box.h>
+
+// Acts as a wrapper for Java, basically handling string conversion and
+// exceptions. This could be improved by making asynchronous and using a callback
+// into Java.
+extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_yodaspeak_MainActivity_convertToYoda(
+		JNIEnv* env,
+		jobject thiz,
+		jstring localFile,
+		jstring remoteFileName)
+{
+
+}
+

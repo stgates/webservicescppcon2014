@@ -1,0 +1,56 @@
+#include <jni.h>
+#include <android/log.h>
+
+#include <cpprest/http_msg.h>
+#include <yoda_speak.h>
+
+void log(const std::string &s)
+{
+	__android_log_print(ANDROID_LOG_ERROR, "YodaSpeak", "%s", s.c_str());
+} // TODO delete...
+
+// Helper function to convert jstring to std::string.
+std::string to_stdstring(JNIEnv *env, jstring text);
+
+// Acts as a wrapper for Java, basically handling string conversion and
+// exceptions. This could be improved by making asynchronous and using a callback
+// into Java.
+extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_yodaspeak_MainActivity_convertToYoda(JNIEnv* env, jobject thiz, jstring text)
+{
+	std::string yodaText;
+
+	try
+	{
+		yodaText = yoda_utilities::convert_to_yoda(to_stdstring(env, text)).get();
+	} catch(const web::http::http_exception &e)
+	{
+		yodaText = e.what();
+	}
+
+	return env->NewStringUTF(yodaText.c_str());
+}
+
+extern "C" JNIEXPORT jstring JNICALL
+Java_com_example_yodaspeak_MainActivity_checkGrammar(JNIEnv* env, jobject thiz, jstring text)
+{
+	std::string grammarText;
+
+	try
+	{
+		grammarText = yoda_utilities::check_grammar(to_stdstring(env, text)).get();
+	} catch(const web::http::http_exception &e)
+	{
+		grammarText = e.what();
+	}
+
+	return env->NewStringUTF(grammarText.c_str());
+}
+
+std::string to_stdstring(JNIEnv *env, jstring text)
+{
+	const char * rawChars = env->GetStringUTFChars(text, nullptr);
+	std::string stdString(rawChars);
+	env->ReleaseStringUTFChars(text, rawChars);
+	return stdString;
+}
